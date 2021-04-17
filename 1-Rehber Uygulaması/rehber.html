@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="rehber.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Rehber Uygulaması</h1>
+       <div class="bilgi">Başarılı</div>
+       
+        <form id="form-rehber">
+            <div>
+                <label for="ad">Adı</label>
+                <input type="text" id="ad" class="u-full-width">
+            </div>
+            <div>
+                <label for="soyad">Soyadı</label>
+                <input type="text" id="soyad" class="u-full-width">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" class="u-full-width">
+            </div>
+            <div>
+                <input class="button-primary u-full-width kaydetVeGuncelle" type="submit" value="Kaydet">
+            </div>
+        </form>
+        <hr>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Email</th>
+                    <th>Islem</th>
+                </tr>
+            </thead>
+            <tbody class="kisiListesi">
+                <tr>
+                    
+                </tr>
+            </tbody>
+    
+        </table>
+    </div>
+ 
+    <script src="rehber.js"></script>
+</body>
+</html>
