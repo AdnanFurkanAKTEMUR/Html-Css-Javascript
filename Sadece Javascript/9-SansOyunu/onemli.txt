@@ -1,0 +1,3 @@
+ilk açıldığı zaman promta 7 değerini girip enterlayınız
+f12 ile console ekranını açınız.
+daha sonra sayfayı f5 ile yenileyip programı incelemeye başlayabilirsiniz.

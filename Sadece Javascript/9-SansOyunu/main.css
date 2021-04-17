@@ -1,0 +1,13 @@
+div{
+    margin: 5px;
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+body{
+    background-color: green;
+}
+h3,h1{
+    color:gold;
+}

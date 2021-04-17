@@ -1,0 +1,475 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 1500px;
+  border-radius: 0px 301px 0px 301px;
+  z-index: -3;
+}
+.circle {
+  position: absolute;
+  background-image: linear-gradient(rgb(27, 188, 209), rgb(243, 85, 243));
+  width: 15%;
+  height: 80%;
+  border-radius: 0px 0px 100em 100em;
+  z-index: -1;
+}
+.phone-container {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 500px;
+  border: 10px solid white;
+  border-radius: 30px;
+  width: 22%;
+  height: 80%;
+  z-index: 1;
+  box-shadow: 0px 0px 10px 2px gray;
+}
+.nav-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 23px 23px 0px 0px;
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 85, 243),
+    rgb(27, 188, 209)
+  );
+  height: 15%;
+}
+.radius {
+  background-color: white;
+  border-radius: 4px 4px 20px 20px;
+  width: 50%;
+  height: 20%;
+}
+.nav-phone > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+.nav-phone > div:nth-child(2) > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70%;
+}
+.nav-phone > div:nth-child(2) > div > .nav-text > h2 {
+  font-size: 2vh;
+  color: white;
+  font-family: "Epilogue", sans-serif;
+}
+.nav-phone > div:nth-child(2) > div > .nav-text > p {
+  font-size: 1.4vh;
+  color: rgb(211, 207, 207);
+  font-family: "Epilogue", sans-serif;
+  margin-top: 5px;
+}
+.nav-phone > div:nth-child(2) > p > i {
+  font-size: 2vh;
+  color: white;
+  margin-left: 10px;
+}
+.nav-border {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  width: 80%;
+}
+.nav-border > img {
+  height: 55%;
+  margin-right: 10px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-ellipsis-v {
+  color: white;
+  font-size: 2.3vh;
+}
+
+.phone-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(241, 241, 241);
+  height: 85%;
+  border-radius: 0px 0px 23px 23px;
+}
+
+.phone-main > div:nth-child(1) {
+  width: 50%;
+  height: 7%;
+  align-self: flex-start;
+  margin-left: 10px;
+  font-size: 1.5vh;
+  border-radius: 15px 15px 15px 5px;
+  padding: 7px;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(235, 223, 235);
+  color: blueviolet;
+}
+.phone-main > div:nth-child(2) {
+  width: 50%;
+  height: 7%;
+  align-self: flex-start;
+  margin-left: 10px;
+  font-size: 1.4vh;
+  border-radius: 15px 15px 15px 5px;
+  padding: 7px;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(235, 223, 235);
+  color: blueviolet;
+}
+.phone-main > div:nth-child(3) {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.phone-main > div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 8%;
+  align-self: flex-end;
+  margin-right: 10px;
+  font-size: 1.3vh;
+  padding: 5px;
+  border-radius: 15px 15px 5px 15px;
+  background-color: white;
+  box-shadow: 0px 5px 10px 1px grey;
+  font-family: "Lato", sans-serif;
+}
+.phone-main > div:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 5%;
+  align-self: flex-end;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 15px 15px 5px 15px;
+  background-color: white;
+  box-shadow: 0px 5px 10px 1px grey;
+  font-size: 1.4vh;
+  font-family: "Lato", sans-serif;
+}
+.phone-main > div:nth-child(6) {
+  width: 50%;
+  height: 9%;
+  border-radius: 15px 15px 15px 5px;
+  align-self: flex-start;
+  margin-left: 10px;
+  padding: 7px;
+  font-size: 1.3vh;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(235, 223, 235);
+  color: blueviolet;
+}
+.phone-main > div:nth-child(7) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  align-self: flex-start;
+  margin-left: 10px;
+  border-radius: 15px 15px 15px 5px;
+  width: 60%;
+  height: 7%;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 85, 243),
+    rgb(27, 188, 209)
+  );
+  font-family: "Lato", sans-serif;
+  font-size: 1.8vh;
+}
+.phone-main > div:nth-child(7) > div {
+  border: 3px solid white;
+  width: 10%;
+  height: 55%;
+  border-radius: 100px;
+}
+.phone-main > div:nth-child(8) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  align-self: flex-start;
+  margin-left: 10px;
+  border-radius: 15px 15px 15px 5px;
+  width: 60%;
+  height: 7%;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 85, 243),
+    rgb(27, 188, 209)
+  );
+  font-family: "Lato", sans-serif;
+  font-size: 2vh;
+}
+.phone-main > div:nth-child(8) > div {
+  border: 3px solid white;
+  width: 10%;
+  height: 55%;
+  border-radius: 100px;
+}
+.phone-main > div:nth-child(9) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 95%;
+  height: 10%;
+  border-radius: 50px;
+  background-color: white;
+}
+.phone-main > div:nth-child(9) > input {
+  width: 80%;
+  height: 40%;
+  border: none;
+  color: gray;
+  text-align: justify;
+  font-size: 1.8vh;
+}
+.phone-main > div:nth-child(9) > i {
+  font-size: 4.5vh;
+  color: purple;
+}
+
+.write {
+  align-self: center;
+  width: 35%;
+  height: 45%;
+  z-index: 1;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 3.3vh;
+}
+.write > h1 {
+  color: purple;
+}
+.write > p {
+  margin-top: 30px;
+  color: gray;
+}
+.circle-two {
+  background-image: linear-gradient(rgb(243, 85, 243), rgb(27, 188, 209));
+  width: 20%;
+  height: 100%;
+  border-radius: 100em 100em 0px 0px;
+  z-index: -1;
+  opacity: 0.1;
+}
+img {
+  height: 7vh;
+}
+/* Mobile */
+@media only screen and (max-width: 414px) {
+  body {
+    background-image: linear-gradient(rgb(243, 85, 243), rgb(27, 188, 209));
+    width: 100vh;
+    height: 350%;
+  }
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: 300%;
+    z-index: -1;
+  }
+  .phone-container {
+    width: 70%;
+    height: 1200px;
+    margin-left: 0px;
+    align-self: center;
+    border: 20px solid white;
+  }
+  .nav-phone > div:nth-child(2) > div > .nav-text > h2 {
+    font-size: 5vh;
+  }
+  .nav-phone > div:nth-child(2) > div > .nav-text > p {
+    font-size: 3.5vh;
+  }
+  .nav-phone > div:nth-child(2) > p > i {
+    font-size: 5vh;
+  }
+  .nav-border > img {
+    height: 65%;
+    border: 5px solid white;
+  }
+  .fa-ellipsis-v {
+    font-size: 5vh;
+  }
+  .phone-main {
+    height: 85%;
+  }
+  .phone-main > div:nth-child(1) {
+    font-size: 3.3vh;
+  }
+  .phone-main > div:nth-child(2) {
+    font-size: 2.9vh;
+  }
+  .phone-main > div:nth-child(4) {
+    font-size: 2.8vh;
+  }
+  .phone-main > div:nth-child(5) {
+    font-size: 2.9vh;
+  }
+  .phone-main > div:nth-child(6) {
+    font-size: 2.8vh;
+  }
+  .phone-main > div:nth-child(7) {
+    font-size: 3.5vh;
+  }
+  .phone-main > div:nth-child(8) {
+    font-size: 4vh;
+  }
+  .phone-main > div:nth-child(9) > input {
+    font-size: 3vh;
+    height: 50%;
+  }
+  .phone-main > div:nth-child(9) > i {
+    font-size: 9vh;
+  }
+  .circle {
+    width: 100%;
+    height: 1200px;
+  }
+  .circle-two {
+    position: absolute;
+    margin-top: 1000px;
+    align-self: flex-end;
+    z-index: -1;
+    width: 100%;
+    height: 1140px;
+  }
+  .write {
+    width: 95%;
+    text-align: center;
+    height: 600px;
+    margin-top: 200px;
+    font-size: 5vh;
+  }
+  img {
+    height: 15vh;
+  }
+}
+/*responsive*/
+@media screen and (min-width: 540px) and (max-width: 1024px) {
+  body {
+    background-image: linear-gradient(rgb(243, 85, 243), rgb(27, 188, 209));
+    width: 100vh;
+    height: 350%;
+  }
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: 300%;
+    z-index: -1;
+  }
+  .phone-container {
+    width: 60%;
+    height: 1200px;
+    margin-left: 0px;
+    align-self: center;
+    border: 20px solid white;
+  }
+  .nav-phone > div:nth-child(2) > div > .nav-text > h2 {
+    font-size: 3vh;
+  }
+  .nav-phone > div:nth-child(2) > div > .nav-text > p {
+    font-size: 2.5vh;
+  }
+  .nav-phone > div:nth-child(2) > p > i {
+    font-size: 4vh;
+  }
+  .nav-border > img {
+    height: 55%;
+    border: 5px solid white;
+  }
+  .fa-ellipsis-v {
+    font-size: 4vh;
+  }
+  .phone-main {
+    height: 85%;
+  }
+  .phone-main > div:nth-child(1) {
+    font-size: 2.8vh;
+  }
+  .phone-main > div:nth-child(2) {
+    font-size: 2.5vh;
+  }
+  .phone-main > div:nth-child(4) {
+    font-size: 2.4vh;
+  }
+  .phone-main > div:nth-child(5) {
+    font-size: 2.2vh;
+  }
+  .phone-main > div:nth-child(6) {
+    font-size: 2.3vh;
+  }
+  .phone-main > div:nth-child(7) {
+    font-size: 3.2vh;
+  }
+  .phone-main > div:nth-child(8) {
+    font-size: 3vh;
+  }
+  .phone-main > div:nth-child(9) > input {
+    font-size: 3vh;
+    height: 50%;
+  }
+  .phone-main > div:nth-child(9) > i {
+    font-size: 9vh;
+  }
+  .circle {
+    width: 50%;
+    height: 1200px;
+  }
+  .circle-two {
+    position: absolute;
+    margin-top: 1000px;
+    align-self: flex-end;
+    z-index: -1;
+    width: 50%;
+    height: 1140px;
+  }
+  .write {
+    width: 95%;
+    text-align: center;
+    height: 600px;
+    margin-top: 200px;
+    font-size: 5vh;
+  }
+  img {
+    height: 15vh;
+  }
+}

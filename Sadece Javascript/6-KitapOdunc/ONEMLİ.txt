@@ -1,0 +1,3 @@
+index.html'li açtığınız zaman öncelikli olarak isim ve şifre yanlış girip
+ardından 'h' tşuna basın.
+Daha sonra sayfayı yenileyerek tekrar girin. isim ve şifreyi js içinde ki kodlarda bulabilirsiniz.

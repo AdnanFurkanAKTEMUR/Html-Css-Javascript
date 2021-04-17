@@ -1,0 +1,153 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(248, 248, 252),
+    rgb(88, 96, 206)
+  );
+}
+.babadiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 645px;
+  width: 700px;
+}
+
+
+.border1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-self: flex-start;
+  width: 484px;
+  height: 150px;
+}
+
+.border1 > .textdiv {
+  text-align: center;
+  width: 400px;
+}
+.border1 > .textdiv ~ .icondiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(247, 241, 241);
+  box-shadow: 0px 0px 20px 5px rgb(148, 150, 148);
+}
+.border1 > .icondiv > p > i {
+  font-size: 50px;
+}
+.border1 > .textdiv > h3 {
+  font-family: sans-serif;
+}
+.border1 > .textdiv > p {
+  font-family: sans-serif;
+  text-align: right;
+}
+.border2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  width: 484px;
+  height: 150px;
+}
+.border2 > .textdiv2 {
+  text-align: center;
+  width: 400px;
+}
+.border2 > .textdiv2 ~ .icondiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(247, 241, 241);
+  box-shadow: 0px 0px 20px 5px rgb(148, 150, 148);
+}
+.border2 > .icondiv2 > p > i {
+  font-size: 50px;
+}
+.border2 > .textdiv2 > h3 {
+  font-family: sans-serif;
+}
+.border2 > .textdiv2 > p {
+  font-family: sans-serif;
+  text-align: left;
+}
+.border3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-self: flex-start;
+  width: 484px;
+  height: 150px;
+}
+.border3 > .textdiv3 {
+  text-align: center;
+  width: 400px;
+}
+.border3 > .textdiv3 ~ .icondiv3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(247, 241, 241);
+  box-shadow: 0px 0px 10px 10px rgb(148, 150, 148);
+}
+.border3 > .icondiv3 > p > i {
+  font-size: 50px;
+}
+.border3 > .textdiv3 > h3 {
+  font-family: sans-serif;
+}
+.border3 > .textdiv3 > p {
+  font-family: sans-serif;
+  text-align: right;
+}
+.border4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  width: 484px;
+  height: 150px;
+}
+.border4 > .textdiv4 {
+  text-align: center;
+  width: 400px;
+}
+.border4 > .textdiv4 ~ .icondiv4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(247, 241, 241);
+  box-shadow: 0px 0px 10px 10px rgb(148, 150, 148);
+}
+.border4 > .icondiv4 > p > i {
+  font-size: 50px;
+}
+.border4 > .textdiv4 > h3 {
+  font-family: sans-serif;
+}
+.border4 > .textdiv4 > p {
+  font-family: sans-serif;
+  text-align: left;
+}

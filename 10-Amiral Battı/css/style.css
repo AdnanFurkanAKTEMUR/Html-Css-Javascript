@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../img/sea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sea{
+    
+    padding: 10px;
+    height: 110vh;
+
+}
+.sea-1,.sea-2{
+    display: flex;
+    
+}
+.sea-3{
+    margin-top: 50px;
+}
+.sea-3,.sea-4{
+    display: flex;
+   
+}
+.area{
+    box-shadow: 1px 1px 10px 1px black;
+    margin: 5px;
+    width: 24%;
+    height: 110px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aAtis,.dAtis{
+    position:absolute;
+    color: red;
+    font-size: 1.4rem;
+}
+.aAtis{
+    margin-top: 25px;
+}
+.turn{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: 2px solid green;
+    padding: 20px 20px;
+    color: red;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: rgba(0, 255, 0, .6);
+}

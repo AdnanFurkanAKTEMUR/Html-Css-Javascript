@@ -1,0 +1,254 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(248, 248, 252),
+    rgb(88, 96, 206)
+  );
+}
+.border1 {
+  position: relative;
+  border: none;
+  margin-right: 300px;
+  width: 450px;
+  height: 250px;
+}
+
+.simge1 {
+  position: absolute;
+  left: 30px;
+  background-color: rgb(247, 241, 241);
+  box-shadow: 0px 0px 20px 5px rgb(148, 150, 148);
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.img1 {
+  width: 40px;
+  height: 40px;
+}
+.border1text {
+  position: relative;
+  left: 150px;
+  border: none;
+  width: 250px;
+  height: 200px;
+}
+.h3-1 {
+  color: rgb(110, 105, 105);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Times New Roman", Times,
+    serif;
+}
+.p-1 {
+  font-family: sans-serif;
+}
+.border2 {
+  position: relative;
+  border: none;
+
+  margin-left: 300px;
+  width: 450px;
+  height: 250px;
+}
+.simge2 {
+  position: absolute;
+  background-color: rgb(247, 241, 241);
+  box-shadow: 0px 0px 20px 5px rgb(148, 150, 148);
+  right: 50px;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+.img2 {
+  width: 40px;
+  height: 40px;
+}
+.border2text {
+  position: relative;
+  left: 40px;
+  border: none;
+  width: 250px;
+  height: 200px;
+}
+.h3-2 {
+  color: rgb(110, 105, 105);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Times New Roman", Times,
+    serif;
+}
+.p-2 {
+  font-family: sans-serif;
+}
+
+.border3 {
+  position: relative;
+  border: none;
+
+  margin-right: 300px;
+  width: 450px;
+  height: 250px;
+}
+.simge3 {
+  position: absolute;
+  background-color: rgb(247, 241, 241);
+  box-shadow: 0px 0px 10px 10px rgb(148, 150, 148);
+  left: 30px;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.img3 {
+  width: 40px;
+  height: 40px;
+}
+.border3text {
+  position: relative;
+  left: 150px;
+  border: none;
+  width: 250px;
+  height: 200px;
+}
+.h3-3 {
+  color: rgb(110, 105, 105);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Times New Roman", Times,
+    serif;
+}
+.p-3 {
+  font-family: sans-serif;
+}
+.border4 {
+  position: relative;
+  border: none;
+
+  margin-left: 300px;
+  width: 450px;
+  height: 250px;
+}
+.simge4 {
+  position: relative;
+  background-color: rgb(247, 241, 241);
+  box-shadow: 0px 0px 10px 10px rgb(148, 150, 148);
+  right: 50px;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+.img4 {
+  width: 40px;
+  height: 40px;
+}
+.border4text {
+  position: relative;
+  left: 40px;
+  border: none;
+  width: 250px;
+  height: 200px;
+}
+.h3-4 {
+  color: rgb(110, 105, 105);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Times New Roman", Times,
+    serif;
+}
+.p-4 {
+  font-family: sans-serif;
+}
+#icon1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 60px;
+}
+#icon2 {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 60px;
+}
+#icon3 {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 60px;
+}
+#icon4 {
+  margin-left: 29px;
+  margin-top: 19px;
+  font-size: 60px;
+}
+
+@media (max-width: 48em) {
+  .simge1 {
+    position: relative;
+    margin-left: 240px;
+    float: none;
+  }
+  .border1text {
+    width: 350px;
+  }
+  .h3-1 {
+    text-align: center;
+  }
+  .p-1 {
+    text-align: center;
+  }
+  .border2 {
+    margin-right: 450px;
+  }
+  .simge2 {
+    position: relative;
+    margin-left: 246px;
+    float: none;
+    right: none;
+  }
+  .border2text {
+    width: 450px;
+  }
+  .h3-2 {
+    text-align: center;
+  }
+  .p-2 {
+    text-align: center;
+  }
+
+  .simge3 {
+    position: relative;
+    left: 273px;
+    float: none;
+  }
+  .border3text {
+    width: 350px;
+  }
+  .h3-3 {
+    text-align: center;
+  }
+  .p-3 {
+    text-align: center;
+  }
+  .border4 {
+    margin-right: 440px;
+    height: 350px;
+  }
+  .simge4 {
+    left: 195px;
+    float: none;
+  }
+  .border4text {
+    width: 450px;
+  }
+  .h3-4 {
+    text-align: center;
+  }
+  .p-4 {
+    text-align: center;
+  }
+}

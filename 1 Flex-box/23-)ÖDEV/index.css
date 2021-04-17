@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1400px;
+  height: 750px;
+}
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(8, 100px);
+  width: 800px;
+  height: 750px;
+  background-image: linear-gradient(
+    to right,
+    rgb(248, 229, 229),
+    rgb(245, 229, 229),
+    rgb(233, 211, 211),
+    rgb(243, 224, 224),
+    rgb(241, 229, 229),
+    rgb(247, 239, 234),
+    rgb(207, 223, 233)
+  );
+}
+.brand-header {
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  height: 50px;
+  grid-column: 2 / 4;
+  margin-top: 40px;
+}
+.circle {
+  border: 3px solid rgb(236, 162, 162);
+  box-shadow: 0px 0px 10px 1px rgb(211, 33, 33);
+  border-radius: 50%;
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+h3 {
+  margin-left: 15px;
+  letter-spacing: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.text-container {
+  width: 400px;
+  height: 300px;
+  grid-row: 3 / 5;
+  grid-column: 2 / 4;
+}
+h2 {
+  font-size: 50px;
+  font-family: "Poiret One", cursive;
+  letter-spacing: 20px;
+  color: rgb(185, 123, 123);
+}
+h1 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+p {
+  color: rgb(185, 123, 123);
+  font-family: "Baloo Da 2", cursive;
+}
+.send-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(209, 163, 163);
+  background-color: rgb(236, 218, 218);
+  box-shadow: 0px 0px 5px 1px rgb(247, 186, 186);
+  border-radius: 50px;
+  width: 400px;
+  height: 50px;
+  grid-row: 6 / 7;
+  grid-column: 2 / 4;
+  margin-top: 60px;
+}
+.send-container > input {
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: rgb(236, 218, 218);
+  color: white;
+}
+.send-container > button {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0px 0px 5px 1px rgb(192, 139, 139);
+  background-image: linear-gradient(
+    to right,
+    rgba(236, 190, 190, 0.986),
+    rgb(236, 100, 100)
+  );
+  border: none;
+}
+::-webkit-input-placeholder {
+  color: rgb(185, 123, 123);
+  font-family: "Baloo Da 2", cursive;
+}

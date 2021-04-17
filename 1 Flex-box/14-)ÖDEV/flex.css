@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  background:linear-gradient(to left, rgb(228, 214, 26), rgb(188, 28, 202))
+}
+main {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  border: 3px solid rgb(83, 80, 80);
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  text-align: right;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: rgb(31, 29, 29);
+}
+.none {
+  visibility: hidden;
+}
+h1 {
+  display: inline;
+  position: absolute;
+  left: 90px;
+  right: 0;
+  top: -105px;
+  z-index: -1;
+  margin-left: 100px;
+  font-weight: 900;
+  font-size: 130px;
+  letter-spacing: 50px;
+  color:#8080807d;
+  font-family:sans-serif;
+}

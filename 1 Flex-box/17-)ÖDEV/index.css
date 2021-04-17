@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.babadiv {
+  height: 510px;
+  width: 710px;
+}
+img {
+  position: absolute;
+  background-size: auto;
+  height: 400px;
+  width: 600px;
+  transition: all 1s;
+  border-radius: 10px;
+}
+.img1 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.img2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.img3 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.img4 {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.img5 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.img6 {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.img7 {
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.img8 {
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.img9 {
+  margin-top: 90px;
+  margin-left: 90px;
+}
+.img10 {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+img:hover {
+  transition: all 2s;
+  z-index: 1;
+  margin-left: 140px;
+}
